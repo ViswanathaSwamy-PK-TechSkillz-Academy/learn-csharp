@@ -19,6 +19,7 @@ namespace ProgramStructureDemo
 
             Console.WriteLine("Hello .NET 8 World!"); /* This is a statement and it ends with semi colon. */
 
+            /* The dot operator (.) is used to access members of a namespace, type, or object. */
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
