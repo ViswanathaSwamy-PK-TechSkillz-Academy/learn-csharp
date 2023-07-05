@@ -16,10 +16,12 @@ namespace ProgramStructureDemo
         // Main method is the entry point of the program
         static void Main(string[] args)
         { /* Block of code Starts here */
-            Console.WriteLine("Hello .NET 8 World!");
+
+            Console.WriteLine("Hello .NET 8 World!"); /* This is a statement and it ends with semi colon. */
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
+
         } /* Block of code Ends here */
     }
 }
