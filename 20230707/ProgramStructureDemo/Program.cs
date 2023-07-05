@@ -23,6 +23,8 @@ namespace ProgramStructureDemo
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
 
+            // Console.ReadKey(); & Console.Readkey(); are different /* C# is a case sensitive language. */
+
         } /* Block of code Ends here */
     }
 }
