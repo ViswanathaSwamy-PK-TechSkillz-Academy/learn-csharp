@@ -10,7 +10,7 @@
       "args": [],
       "cwd": "${workspaceFolder}/A2FunctionsDemo",
       "stopAtEntry": false,
-      "console": "internalConsole"
+      "console": "externalTerminal"
     },
     {
       // Use IntelliSense to find out which attributes exist for C# debugging
@@ -25,7 +25,7 @@
       "args": [],
       "cwd": "${workspaceFolder}/A1IntVariablesDemo",
       // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-      "console": "internalConsole",
+      "console": "integratedTerminal",
       "stopAtEntry": false
     },
     {
