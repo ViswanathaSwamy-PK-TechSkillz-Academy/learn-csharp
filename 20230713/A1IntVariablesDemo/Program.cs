@@ -4,6 +4,10 @@
 age = 18; // initializing
 Console.WriteLine(age); // error: use of unassigned local variable 'age'
 
+Console.WriteLine("What is your age?"); // asking for input
+age = int.Parse(Console.ReadLine()!); // reading input and converting it to int
+Console.WriteLine($"Your age is {age}"); // string interpolation
+
 int rollNumber = 1, marks = 100; // declaring and initializing multiple variables
 Console.WriteLine($"{rollNumber} {marks}"); // string interpolation
 
