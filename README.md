@@ -4,6 +4,7 @@ This is a crash course on C# programming language. This course is designed for p
 
 ## Table of Contents
 
+> 1. [Introduction](./documentation/S1.md)
 
 ## Old Items
 
