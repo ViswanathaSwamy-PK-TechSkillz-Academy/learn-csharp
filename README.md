@@ -8,6 +8,10 @@ This is a crash course on C# programming language. This course is designed for p
 
 ## Old Items
 
+> 1. What is .sln file?
+
+----------------------------------------
+
 > 1. What is .NET?
 > 1. .NET History
 > 1. .NET CLR basics
