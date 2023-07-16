@@ -18,6 +18,16 @@ Console.WriteLine(age);
 
 Console.WriteLine(int.Parse("123")); // converting string to int
 
+Console.WriteLine("Enter a number: ");
+int number = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"You entered {number}");
+Console.WriteLine($"Square of {number} is {Add(number, number)}");
+
+static int Add(int a, int b) // method declaration
+{
+    return a + b; // method body
+}
+
 /* Using + symbol to string concatenate is a BAD practice. */
 // Console.WriteLine("Byte: 1 byte of memory. Its Min and Max Values are " + byte.MinValue + " and " + byte.MaxValue);
 // Console.WriteLine("SByte: 1 byte of memory. Its Min and Max Values are " + sbyte.MinValue + " and " + sbyte.MaxValue);
