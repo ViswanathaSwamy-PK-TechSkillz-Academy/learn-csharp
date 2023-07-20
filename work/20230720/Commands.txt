@@ -8,6 +8,8 @@ dotnet new console -o A2DefaultValuesDemo
 dotnet add reference .
 dotnet sln add 
 
+---------------------------------------------------
+
 dotnet new console -o A2CharsDemo
 
 dotnet new console -o A3IntegersDemo
