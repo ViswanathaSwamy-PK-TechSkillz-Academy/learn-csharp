@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Using Include="ProgramStructureDemo.MathsV1" Static="true" />
+  </ItemGroup>
+
 </Project>
