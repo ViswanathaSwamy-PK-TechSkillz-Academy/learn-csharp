@@ -27,7 +27,9 @@ namespace ProgramStructureDemo
             
             Maths maths = new(); /* This is a statement and it ends with semi colon. */
             Console.WriteLine(maths.AddNumbers(2, 4));
-            // Console.WriteLine(Maths.AddNumbers(2, 4));
+            
+            Console.WriteLine(MathsV1.AddNumbers(2, 4));
+            Console.WriteLine(AddNumbers(2, 4));
 
             /* The dot operator (.) is used to access members of a namespace, type, or object. */
             Console.WriteLine("Press any key to exit.");
@@ -40,11 +42,18 @@ namespace ProgramStructureDemo
 
     public class Maths
     {
-
         public int AddNumbers(int a, int b)
         {
             return a + b;
         }
-
     }
+
+    public class MathsV1
+    {
+        public static int AddNumbers(int a, int b)
+        {
+            return a + b;
+        }
+    }
+
 }
