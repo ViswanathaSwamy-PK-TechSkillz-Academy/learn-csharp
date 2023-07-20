@@ -1,17 +1,32 @@
 # C# Programming Language Fundamentals
 
-This is a crash course on C# programming language. This course is designed for people who have some programming experience and want to learn C#.
+This is a C# programming language fundamentals course . This course is designed for people who have some programming experience and want to learn C#.
 
 ## Table of Contents
 
-> 1. [Introduction](./documentation/S1.md)
+> 1. [Session 1](./documentation/S1.md)
 
-## Old Items
+## To do Items
+
+dotnet new console -o A2CharsDemo
+
+dotnet new console -o A3IntegersDemo
+
+dotnet new console -o A4DecimalsDemo
+
+dotnet new console -o A4BoolDemo
+
+dotnet new console -o A5DateTimeDemo
+
+dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
+
+dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
+
+dotnet add:
+  package <PACKAGE_NAME>    Add a NuGet package reference to the project.
+  reference <PROJECT_PATH>  Add a project-to-project reference to the project.
 
 > 1. What is .sln file?
-
-----------------------------------------
-
 > 1. What is .NET?
 > 1. .NET History
 > 1. .NET CLR basics

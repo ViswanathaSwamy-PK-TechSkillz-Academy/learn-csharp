@@ -42,22 +42,3 @@ dotnet add:
   reference <PROJECT_PATH>  Add a project-to-project reference to the project.
 ```
 
----------------------------------------------------
-
-dotnet new console -o A2CharsDemo
-
-dotnet new console -o A3IntegersDemo
-
-dotnet new console -o A4DecimalsDemo
-
-dotnet new console -o A4BoolDemo
-
-dotnet new console -o A5DateTimeDemo
-
-dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
-
-dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
-
-dotnet add:
-  package <PACKAGE_NAME>    Add a NuGet package reference to the project.
-  reference <PROJECT_PATH>  Add a project-to-project reference to the project.
