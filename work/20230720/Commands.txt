@@ -1,1 +1,5 @@
 dotnet new sln -n 20230720
+
+dotnet new console -o A1StringsDemo
+
+dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
