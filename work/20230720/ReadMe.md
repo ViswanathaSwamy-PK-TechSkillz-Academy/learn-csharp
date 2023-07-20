@@ -1,12 +1,18 @@
+# 20 Jul 2023 Session
+
+## Commands
+
+```powershell
 dotnet new sln -n 20230720
 
-dotnet new console -o A1StringsDemo
-dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
-dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
-
-dotnet new console -o A2DefaultValuesDemo
+dotnet new console -o A1DefaultValuesDemo
 dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
 dotnet sln add .\A2DefaultValuesDemo\A2DefaultValuesDemo.csproj
+
+dotnet new console -o A2StringsDemo
+dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
+dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
+```
 
 ---------------------------------------------------
 
