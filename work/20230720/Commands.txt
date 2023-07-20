@@ -2,4 +2,6 @@ dotnet new sln -n 20230720
 
 dotnet new console -o A1StringsDemo
 
+dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
+
 dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
