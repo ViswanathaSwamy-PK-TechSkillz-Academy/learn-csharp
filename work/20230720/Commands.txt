@@ -2,11 +2,11 @@ dotnet new sln -n 20230720
 
 dotnet new console -o A1StringsDemo
 dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
-dotnet sln add 
+dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
 
 dotnet new console -o A2DefaultValuesDemo
-dotnet add reference .
-dotnet sln add 
+dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
+dotnet sln add .\A2DefaultValuesDemo\A2DefaultValuesDemo.csproj
 
 ---------------------------------------------------
 
