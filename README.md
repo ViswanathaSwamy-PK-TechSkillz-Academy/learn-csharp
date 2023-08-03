@@ -20,7 +20,7 @@ dotnet new console -o A5DateTimeDemo
 
 dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
 
-dotnet add reference ..\..\Common\HeaderFooter\HeaderFooter.csproj
+dotnet add reference ../../Common/HeaderFooter/HeaderFooter.csproj
 
 dotnet add:
   package <PACKAGE_NAME>    Add a NuGet package reference to the project.
