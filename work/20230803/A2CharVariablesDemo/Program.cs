@@ -5,24 +5,31 @@ Footer _footer = new();
 
 _header.DisplayHeader('=', "A2 Char Variables Demo");
 
-ForegroundColor = ConsoleColor.Magenta;
+ShowCharDemo();
 
-WriteLine($"Char: {sizeof(char)} byte(s) of memory. Its Min and Max Values are {(int)char.MinValue} and {(int)char.MaxValue}");
+_footer.DisplayFooter('-');
 
-char choice = 'Y';
-WriteLine($"Char: {choice} {(int)choice}");
-
-choice = 'y';
-WriteLine($"Char: {choice} {(int)choice}");
-
-WriteLine($"Char: {(char)97} {(int)89}");
-
-for (int i = 97, j = 65; i < 123; i++)
+static void ShowCharDemo()
 {
-    Write($"{(char)i} == {i} :: {(char)j} == {j++} || ");
-}
+    ForegroundColor = ConsoleColor.Magenta;
 
-ResetColor();
+    WriteLine($"Char: {sizeof(char)} byte(s) of memory. Its Min and Max Values are {(int)char.MinValue} and {(int)char.MaxValue}");
+
+    char choice = 'Y';
+    WriteLine($"Char: {choice} {(int)choice}");
+
+    choice = 'y';
+    WriteLine($"Char: {choice} {(int)choice}");
+
+    WriteLine($"Char: {(char)97} {(int)89}");
+
+    for (int i = 97, j = 65; i < 123; i++)
+    {
+        Write($"{(char)i} == {i} :: {(char)j} == {j++} || ");
+    }
+
+    ResetColor();
+}
 
 // char chA = 'A';
 // char ch1 = '1';
@@ -48,8 +55,3 @@ ResetColor();
 // {
 //     Write($"Char: {(char)i} {i} || ");
 // }
-
-
-
-_footer.DisplayFooter('-');
-
