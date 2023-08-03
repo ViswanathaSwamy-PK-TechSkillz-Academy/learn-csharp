@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1IntVariablesDemo", "A1Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2CharVariablesDemo", "A2CharVariablesDemo\A2CharVariablesDemo.csproj", "{3A28F6DB-01B2-4FF5-8FBC-478B314FB54D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A3BoolVariablesDemo", "A3BoolVariablesDemo\A3BoolVariablesDemo.csproj", "{41C6C974-AABD-4C94-A881-B5E20E434C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A4FloatingVariablesDemo", "A4FloatingVariablesDemo\A4FloatingVariablesDemo.csproj", "{3BAC40E4-741D-4AAF-BCC3-C5875E2A023E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{3A28F6DB-01B2-4FF5-8FBC-478B314FB54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A28F6DB-01B2-4FF5-8FBC-478B314FB54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A28F6DB-01B2-4FF5-8FBC-478B314FB54D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41C6C974-AABD-4C94-A881-B5E20E434C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C6C974-AABD-4C94-A881-B5E20E434C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C6C974-AABD-4C94-A881-B5E20E434C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C6C974-AABD-4C94-A881-B5E20E434C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAC40E4-741D-4AAF-BCC3-C5875E2A023E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAC40E4-741D-4AAF-BCC3-C5875E2A023E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAC40E4-741D-4AAF-BCC3-C5875E2A023E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAC40E4-741D-4AAF-BCC3-C5875E2A023E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
