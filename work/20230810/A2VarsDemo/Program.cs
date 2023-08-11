@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+// To display the Compiler version and Language version uncomment the below line
+// #error version
+
 char grade = 'A';
 int age = 18;
 string name = "Ram";
