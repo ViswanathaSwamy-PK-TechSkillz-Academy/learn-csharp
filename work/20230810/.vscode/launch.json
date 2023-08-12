@@ -5,7 +5,7 @@
       // Use IntelliSense to find out which attributes exist for C# debugging
       // Use hover for the description of the existing attributes
       // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-      "name": "A1TypeCastingDemo .NET - console",
+      "name": "A1TypeCastingDemo - console",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
@@ -21,7 +21,7 @@
       // Use IntelliSense to find out which attributes exist for C# debugging
       // Use hover for the description of the existing attributes
       // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
-      "name": "A2VarsDemo .NET - console",
+      "name": "A2VarsDemo - console",
       "type": "coreclr",
       "request": "launch",
       "preLaunchTask": "build",
