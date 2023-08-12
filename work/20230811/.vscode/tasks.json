@@ -9,6 +9,18 @@
 			"group": "build",
 			"label": "Build: solution",
 			"detail": "Build the 20230811.sln solution using dotnet build"
-		}
+		},
+		{
+			"label": "build",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+			  "build",
+			  "${workspaceFolder}/20230811.sln",
+			  "/property:GenerateFullPaths=true",
+			  "/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		  }
 	]
 }
