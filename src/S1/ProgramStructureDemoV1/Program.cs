@@ -20,6 +20,8 @@ namespace ProgramStructureDemo
         static void Main(string[] args)
         { /* Block of code Starts here */
 
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+
             Console.WriteLine("Hello .NET 8 World!"); /* This is a statement and it ends with semi colon. */
 
             Console.WriteLine("Enter your name: ");
@@ -33,6 +35,8 @@ namespace ProgramStructureDemo
             /* Accessing static members of a class. */
             Console.WriteLine($"{num1} + {num2} = {Maths.AddNumbersV1(num1, num2)}");
             Console.WriteLine($"Max value is {Maths.MaxValue}");
+
+            Console.ResetColor();
 
             /* The dot operator (.) is used to access members of a namespace, type, or object. */
             Console.WriteLine("Press any key to exit.");
