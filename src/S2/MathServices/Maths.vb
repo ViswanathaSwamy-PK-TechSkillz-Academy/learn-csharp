@@ -1,4 +1,4 @@
-Namespace MathServices
+Namespace MathLibrary
     Public Class Maths
         Public Shared MaxValue As Integer = 100
 
