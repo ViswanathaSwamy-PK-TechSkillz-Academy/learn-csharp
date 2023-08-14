@@ -1,4 +1,5 @@
 ﻿
+
 Console.ForegroundColor = ConsoleColor.Green;
 
 Console.WriteLine("Hello .NET 8 World!"); /* This is a statement and it ends with semi colon. */
