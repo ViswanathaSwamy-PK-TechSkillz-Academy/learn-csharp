@@ -19,6 +19,9 @@ Console.WriteLine($"{num1} + {num2} = {maths.AddNumbers(num1, num2)}");
 Console.WriteLine($"{num1} + {num2} = {Maths.AddNumbersV1(num1, num2)}");
 Console.WriteLine($"Max value is {Maths.MaxValue}");
 
+int value = Maths.MaxValue;
+Console.WriteLine($"Max value is {value} and it is C# Variable.");
+
 Console.ResetColor();
 
 /* The dot operator (.) is used to access members of a namespace, type, or object. */
