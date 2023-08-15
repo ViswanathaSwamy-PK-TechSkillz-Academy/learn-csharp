@@ -1,4 +1,7 @@
-﻿using MathServices.MathLibrary;
+﻿/* 
+    Using VB.NET style namespace aliasing. We are using VB.NET Library in this C# program.
+*/
+using MathServices.MathLibrary;
 
 Console.ForegroundColor = ConsoleColor.Yellow;
 
