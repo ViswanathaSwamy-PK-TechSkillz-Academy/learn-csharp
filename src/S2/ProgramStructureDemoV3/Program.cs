@@ -12,7 +12,7 @@ Console.Write("Enter your name: ");
 var name = Console.ReadLine();
 Console.WriteLine($"Hello {name}!");
 
-Console.ForegroundColor = ConsoleColor.Magenta;
+Console.ForegroundColor = ConsoleColor.Cyan;
 
 int num1 = 10, num2 = 20; /* Variable declaration and initialization. */
 Maths maths = new(); /* Instantiation of Maths VB.NET Lib class. */
