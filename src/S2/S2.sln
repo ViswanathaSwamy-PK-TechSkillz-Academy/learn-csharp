@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramStructureDemoV3", "P
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MathServices", "MathServices\MathServices.vbproj", "{92949206-9446-4E86-BC3E-B03E684DDBC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServicesCSLib", "MathServicesCSLib\MathServicesCSLib.csproj", "{D579557C-85A9-41F6-B924-11293C53C395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,9 @@ Global
 		{92949206-9446-4E86-BC3E-B03E684DDBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92949206-9446-4E86-BC3E-B03E684DDBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92949206-9446-4E86-BC3E-B03E684DDBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D579557C-85A9-41F6-B924-11293C53C395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D579557C-85A9-41F6-B924-11293C53C395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D579557C-85A9-41F6-B924-11293C53C395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D579557C-85A9-41F6-B924-11293C53C395}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
