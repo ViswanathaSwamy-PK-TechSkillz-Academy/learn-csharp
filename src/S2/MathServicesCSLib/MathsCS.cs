@@ -1,6 +1,6 @@
 ﻿namespace MathServicesCSLib;
 
-public class Maths
+public class MathsCS
 {
     public static int MaxValue = 100;
 
