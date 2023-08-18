@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MathServices\MathServices.vbproj" />
+    <ProjectReference Include="..\MathServicesCSLib\MathServicesCSLib.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
