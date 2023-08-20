@@ -7,7 +7,7 @@ Console.ForegroundColor = ConsoleColor.Green;
 
 Console.WriteLine("Hello .NET 8 World!"); /* This is a statement and it ends with semi colon. */
 
-Console.WriteLine("Enter your name: ");
+Console.Write("Enter your name: ");
 var name = Console.ReadLine();
 Console.WriteLine($"Hello {name}!");
 
