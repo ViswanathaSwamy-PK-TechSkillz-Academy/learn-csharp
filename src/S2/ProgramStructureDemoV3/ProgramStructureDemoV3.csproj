@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\MathServices\MathServices.vbproj" />
+    <ProjectReference Include="..\MathServicesVBLib\MathServicesVBLib.vbproj" />
     <ProjectReference Include="..\MathServicesCSLib\MathServicesCSLib.csproj" />
   </ItemGroup>
 
