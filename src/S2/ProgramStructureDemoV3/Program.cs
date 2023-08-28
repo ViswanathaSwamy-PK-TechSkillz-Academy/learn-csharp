@@ -35,7 +35,7 @@ Console.WriteLine($"Maths C# Lib => {num1} + {num2} = {mathsCs.AddNumbers(num1, 
 Console.WriteLine($"Maths C# Lib Static Method => {num1} + {num2} = {MathsCS.AddNumbersV1(num1, num2)}");
 Console.WriteLine($"Maths C# Lib Static Member => Max value: {MathsCS.MaxValue}");
 
-Console.WriteLine($"Maths C# Lib Static Member => Maths.MaxValue: {MathsCS.MaxValue.GetType()}.");
+Console.WriteLine($"Maths C# Lib Static Member => MathsCS.MaxValue: {MathsCS.MaxValue.GetType()}.");
 maxValue = MathsCS.MaxValue;
 Console.WriteLine($"(C# Variable) Max value: {maxValue} and its type {maxValue.GetType()}.");
 
