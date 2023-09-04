@@ -1,21 +1,21 @@
-# Session
+# Session 3: Dive into Interoperability, and JIT Compilation, Debugging using VS Code - Part of Microservices Series 3/120
 
 ## Commands
 
 ```powershell
 dotnet new sln -n S3
 
-dotnet new console -o ProgramStructureDemoV1
-dotnet sln add .\ProgramStructureDemoV1\ProgramStructureDemoV1.csproj
+dotnet new console -o A1VariablesDemo
+dotnet sln add .\A1VariablesDemo\A1VariablesDemo.csproj
 dotnet add reference ../../Common/HeaderFooter/HeaderFooter.csproj
 dotnet restore
 dotnet build
-dotnet run --project .\ProgramStructureDemoV1\ProgramStructureDemoV1.csproj
+dotnet run --project .\A1VariablesDemo\A1VariablesDemo.csproj
 
-dotnet new console -o ProgramStructureDemoV2
-dotnet sln add .\ProgramStructureDemoV2\ProgramStructureDemoV2.csproj
+dotnet new console -o A2InputOutputDemo
+dotnet sln add .\A2InputOutputDemo\A2InputOutputDemo.csproj
 dotnet add reference ../../Common/HeaderFooter/HeaderFooter.csproj
 dotnet restore
 dotnet build
-dotnet run --project .\ProgramStructureDemoV2\ProgramStructureDemoV2.csproj
+dotnet run --project .\A2InputOutputDemo\A2InputOutputDemo.csproj
 ```
