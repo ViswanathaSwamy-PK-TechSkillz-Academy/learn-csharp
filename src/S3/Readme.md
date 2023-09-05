@@ -5,6 +5,12 @@
 ```powershell
 dotnet new sln -n S3
 
+dotnet new console -o A1CompilerVersionDemo
+dotnet sln add .\A1CompilerVersionDemo\A1CompilerVersionDemo.csproj
+dotnet restore
+dotnet build
+dotnet run --project .\A1CompilerVersionDemo\A1CompilerVersionDemo.csproj
+
 dotnet new console -o A1VariablesDemo
 dotnet sln add .\A1VariablesDemo\A1VariablesDemo.csproj
 dotnet add reference ../../Common/HeaderFooter/HeaderFooter.csproj
