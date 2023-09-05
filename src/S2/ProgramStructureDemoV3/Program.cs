@@ -15,7 +15,9 @@ Console.WriteLine($"Hello {name}!");
 Console.ForegroundColor = ConsoleColor.Cyan;
 
 int num1 = 10, num2 = 20; /* Variable declaration and initialization. */
-Maths maths = new(); /* Instantiation of Maths VB.NET Lib class. */
+
+/* Instantiation of Maths VB.NET Lib class. */
+Maths maths = new();
 Console.WriteLine($"Maths VB.NET Lib => {num1} + {num2} = {maths.AddNumbers(num1, num2)}");
 
 /* Accessing static members of a class. */
@@ -28,7 +30,8 @@ Console.WriteLine($"(C# Variable) Max value: {maxValue} and its type {maxValue.G
 
 Console.ForegroundColor = ConsoleColor.DarkCyan;
 
-MathsCS mathsCs = new(); /* Instantiation of Maths C# Lib class. */
+/* Instantiation of Maths C# Lib class. */
+MathsCS mathsCs = new();
 Console.WriteLine($"Maths C# Lib => {num1} + {num2} = {mathsCs.AddNumbers(num1, num2)}");
 
 /* Accessing static members of a class. */
