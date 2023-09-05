@@ -5,4 +5,4 @@
 Console.WriteLine("Hello Compiler Version Demo World!");
 
 // Uncomment this line to see the compiler version
-#error version
+// #error version
