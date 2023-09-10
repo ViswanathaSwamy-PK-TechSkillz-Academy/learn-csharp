@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ProgramStructureDemoV1 - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/ProgramStructureDemoV1/bin/Debug/net8.0/ProgramStructureDemoV1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ProgramStructureDemoV1",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "ProgramStructureDemoV2 - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/ProgramStructureDemoV2/bin/Debug/net8.0/ProgramStructureDemoV2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ProgramStructureDemoV2",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "ProgramStructureDemoV3 - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/ProgramStructureDemoV3/bin/Debug/net8.0/ProgramStructureDemoV3.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ProgramStructureDemoV3",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
