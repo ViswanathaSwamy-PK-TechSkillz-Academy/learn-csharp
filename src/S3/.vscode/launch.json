@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "A1CompilerVersionDemo - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/A1CompilerVersionDemo/bin/Debug/net8.0/A1CompilerVersionDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/A1CompilerVersionDemo",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "A2VariablesDemo - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/A2VariablesDemo/bin/Debug/net8.0/A2VariablesDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/A2VariablesDemo",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "A3InputOutputDemo - console",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/A3InputOutputDemo/bin/Debug/net8.0/A3InputOutputDemo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/A3InputOutputDemo",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
