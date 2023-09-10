@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1VariablesDemo", "A1VariablesDemo\A1VariablesDemo.csproj", "{2488E83A-B808-4480-A56E-A00585332522}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2VariablesDemo", "A2VariablesDemo\A2VariablesDemo.csproj", "{2488E83A-B808-4480-A56E-A00585332522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A2InputOutputDemo", "A2InputOutputDemo\A2InputOutputDemo.csproj", "{566F5EF9-EE31-4D55-921E-8F252EFE6E82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A3InputOutputDemo", "A3InputOutputDemo\A3InputOutputDemo.csproj", "{566F5EF9-EE31-4D55-921E-8F252EFE6E82}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A1CompilerVersionDemo", "A1CompilerVersionDemo\A1CompilerVersionDemo.csproj", "{41272DD1-A31F-4612-AB1F-0D01DE4BA7D8}"
 EndProject
