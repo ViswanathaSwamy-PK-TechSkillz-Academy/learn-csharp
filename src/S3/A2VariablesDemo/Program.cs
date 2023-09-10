@@ -3,8 +3,9 @@
 Header _header = new();
 Footer _footer = new();
 
-_header.DisplayHeader('=', "Default Values Demo");
+_header.DisplayHeader('=', "Variables and Default Values Demo");
 
+// Default Values
 int age;
 char gender;
 string userName;
@@ -13,6 +14,7 @@ decimal salary;
 double bonus;
 float tax;
 
+// Assigning Values
 age = 18;
 gender = 'M';
 userName = "John Doe";
@@ -21,6 +23,7 @@ salary = 100000.00M;
 bonus = 10000.00;
 tax = 0.10F;
 
+// Displaying Values
 Console.WriteLine($"Age: {age}");
 Console.WriteLine($"Gender: {gender}");
 Console.WriteLine($"User Name: {userName}");
