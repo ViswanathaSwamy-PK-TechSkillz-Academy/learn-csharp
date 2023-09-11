@@ -1,5 +1,38 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello A2InputOutputDemo World!");
+﻿using HeaderFooter;
 
-string name = Console.ReadLine();
-Console.WriteLine($"Hello {name}!");
+Header _header = new();
+Footer _footer = new();
+
+_header.DisplayHeader('=', "Default Values Demo");
+
+Console.Write("Enter your age: ");
+string? age = Console.ReadLine();
+
+Console.Write("Enter Gender: ");
+string? gender = Console.ReadLine();
+
+Console.Write("Enter User Name: ");
+string? userName = Console.ReadLine();
+
+Console.Write("Enter Is Manager: ");
+string? isManager = Console.ReadLine();
+
+Console.Write("Enter Salary: ");
+string? salary = Console.ReadLine();
+
+Console.Write("Enter Bonus: ");
+string? bonus = Console.ReadLine();
+
+Console.Write("Enter Tax: ");
+string? tax = Console.ReadLine();
+
+Console.WriteLine("\n\n***** Displaying Values *****");
+Console.WriteLine($"Age: {age}");
+Console.WriteLine($"Gender: {gender}");
+Console.WriteLine($"User Name: {userName}");
+Console.WriteLine($"Is Manager: {isManager}");
+Console.WriteLine($"Salary: {salary}");
+Console.WriteLine($"Bonus: {bonus}");
+Console.WriteLine($"Tax: {tax}");
+
+_footer.DisplayFooter('-');
