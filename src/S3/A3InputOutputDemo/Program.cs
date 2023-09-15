@@ -3,7 +3,7 @@
 Header _header = new();
 Footer _footer = new();
 
-_header.DisplayHeader('=', "Default Values Demo");
+_header.DisplayHeader('=', "Input Output Demo");
 
 Console.Write("Enter your age: ");
 string? age = Console.ReadLine();
