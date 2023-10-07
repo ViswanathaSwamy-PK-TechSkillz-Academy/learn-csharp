@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net6demoappv1", "net6demoap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net7demoappv1", "net7demoappv1\net7demoappv1.csproj", "{5B024420-7E74-477D-BE35-8E3A0191B431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net8demoappv1", "net8demoappv1\net8demoappv1.csproj", "{75687ECA-E95B-41C9-828F-6CBCD8200257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{5B024420-7E74-477D-BE35-8E3A0191B431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B024420-7E74-477D-BE35-8E3A0191B431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B024420-7E74-477D-BE35-8E3A0191B431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75687ECA-E95B-41C9-828F-6CBCD8200257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75687ECA-E95B-41C9-828F-6CBCD8200257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75687ECA-E95B-41C9-828F-6CBCD8200257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75687ECA-E95B-41C9-828F-6CBCD8200257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
