@@ -9,5 +9,10 @@ public class MathsCS
         return a + b;
     }
 
+    public int MultiplyNumbers(int a, int b)
+    {
+        return a * b;
+    }
+
     public static int AddNumbersV1(int a, int b) => a + b;
 }

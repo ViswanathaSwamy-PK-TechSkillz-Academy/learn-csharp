@@ -6,6 +6,10 @@ Namespace MathLibrary
             Return a + b
         End Function
 
+        Public Function MultiplyNumbers(a As Integer, b As Integer) As Integer
+            Return a * b
+        End Function
+
         Public Shared Function AddNumbersV1(a As Integer, b As Integer) As Integer
             Return a + b
         End Function
