@@ -41,6 +41,8 @@ foreach (AssemblyName name in applicationAssembly.GetReferencedAssemblies())
       arg2: name.Name);
 }
 
+WriteLine($"My Computer name is {Env.MachineName} !");
+
 ResetColor(); // Reset the console to default colors.
 
 WriteLine("\nPress any key to exit...");
