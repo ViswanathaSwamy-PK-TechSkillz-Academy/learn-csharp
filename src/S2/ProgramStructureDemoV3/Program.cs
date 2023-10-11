@@ -19,12 +19,12 @@ int num1 = 10, num2 = 20; /* Variable declaration and initialization. */
 /* Instantiation of Maths VB.NET Lib class. */
 Maths maths = new();
 
-Console.WriteLine($"Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
+Console.WriteLine($"Start VB.NET Lib -> Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
 Console.ReadLine();
 
 Console.WriteLine($"Maths VB.NET Lib => {num1} + {num2} = {maths.AddNumbers(num1, num2)}");
 
-Console.WriteLine($"Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
+Console.WriteLine($"End VB.NET Lib -> Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
 Console.ReadLine();
 
 /* Accessing static members of a class. */
@@ -40,12 +40,12 @@ Console.ForegroundColor = ConsoleColor.DarkCyan;
 /* Instantiation of Maths C# Lib class. */
 MathsCS mathsCs = new();
 
-Console.WriteLine($"Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
+Console.WriteLine($"Start C# Lib -> Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
 Console.ReadLine();
 
 Console.WriteLine($"Maths C# Lib => {num1} + {num2} = {mathsCs.AddNumbers(num1, num2)}");
 
-Console.WriteLine($"Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
+Console.WriteLine($"Start VB.NET Lib -> Watch the CLR\'s JIT Compilation magic in WinDbg!. Please press any key to continue.");
 Console.ReadLine();
 
 /* Accessing static members of a class. */
