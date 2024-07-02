@@ -16,9 +16,18 @@ This is a C# programming language fundamentals course . This course is designed 
 > 1. ms-dotnettools.dotnet-interactivevscode
 > 1. icsharpcode.ilspy-vscode
 > 1. humao.rest-client
-> 1. code --list-extensions
-> 1. code --install-extension <extension-id>
-> 1. code --uninstall-extension <extension-id>
+
+## Few Commands
+
+```powershell
+code --list-extensions
+code --install-extension <extension-id>
+code --uninstall-extension <extension-id>
+
+dotnet --info
+dotnet --list-sdks
+dotnet --list-runtimes
+```
 
 ## To do Items
 
