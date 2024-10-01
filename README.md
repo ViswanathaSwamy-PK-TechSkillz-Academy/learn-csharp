@@ -6,6 +6,29 @@ This is a C# programming language fundamentals course . This course is designed 
 
 > 1. [Session 1](./documentation/S1.md)
 
+## Few points
+
+> 1. C# Dev Kit extension
+> 1. ms-dotnettools.csdevkit
+> 1. ms-dotnettools.csharp
+> 1. ms-dotnettools.vscodeintellicodecsharp
+> 1. tintoy.msbuild-project-tools
+> 1. ms-dotnettools.dotnet-interactivevscode
+> 1. icsharpcode.ilspy-vscode
+> 1. humao.rest-client
+
+## Few Commands
+
+```powershell
+code --list-extensions
+code --install-extension <extension-id>
+code --uninstall-extension <extension-id>
+
+dotnet --info
+dotnet --list-sdks
+dotnet --list-runtimes
+```
+
 ## To do Items
 
 dotnet new console -o A2CharsDemo
@@ -23,8 +46,8 @@ dotnet sln add .\A1StringsDemo\A1StringsDemo.csproj
 dotnet add reference ../../Common/HeaderFooter/HeaderFooter.csproj
 
 dotnet add:
-  package <PACKAGE_NAME>    Add a NuGet package reference to the project.
-  reference <PROJECT_PATH>  Add a project-to-project reference to the project.
+package <PACKAGE_NAME> Add a NuGet package reference to the project.
+reference <PROJECT_PATH> Add a project-to-project reference to the project.
 
 > 1. What is .sln file?
 > 1. What is .NET?

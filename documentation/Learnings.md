@@ -13,3 +13,15 @@ ms-dotnettools.dotnet-interactive-vscode
 icsharpcode.ilspy-vscode
 humao.rest-client
 ```
+
+## Few Commands
+
+```powershell
+code --list-extensions
+code --install-extension <extension-id>
+code --uninstall-extension <extension-id>
+
+dotnet --info
+dotnet --list-sdks
+dotnet --list-runtimes
+```
