@@ -25,3 +25,5 @@ dotnet --info
 dotnet --list-sdks
 dotnet --list-runtimes
 ```
+
+> 1. `code --install-extension ms-dotnettools.csdevkit`
